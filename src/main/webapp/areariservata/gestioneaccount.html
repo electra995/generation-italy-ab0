@@ -1,0 +1,60 @@
+<html>
+
+<head>
+  <title>AB0 | Gestione Account</title>
+  <link rel="icon" href="../Immagini/syringe.png" type="image/png" />
+  <link rel="Stylesheet" type="text/css" href="../Stili/GestioneAccount.css" />
+  <meta charset="utf-8" />
+  <script src="../JS/jquery.min.js"></script>
+  <script src="../JS/GestioneAccount.js"></script>
+  <iframe src="../inavbar.html" class="iframe" frameborder="0" scrolling="yes"
+    style="z-index: 10; top:0; position: sticky; display:block; width:100%; height:fit-content;"></iframe>
+</head>
+
+<body>
+  <div class="contenuto1">
+
+    <ul id="menu">
+      <a href="datipersonali.html">
+        <li><img src="../Immagini/id-card.png" width="35" class="icona_menu">Dati Personali
+      </a></li>
+      <li><img src="../Immagini/calendar.png" width="35" class="icona_menu"><a href="prenotazioni.html">Prenotazioni</a>
+      </li>
+      <li><img src="../Immagini/medal.png" width="35" class="icona_menu"><a href="traguardi.html">Traguardi</a></li>
+      <li><img src="../Immagini/note.png" width="35" class="icona_menu"><a href="gestioneaccount.html">Gestione
+          Account</a></li>
+    </ul>
+
+    <div class="contenuto2">
+      <h1>Gestione Account</h1>
+
+      <form>
+        <div class="input">
+          <label for="email" class="title">E-mail</label>
+          <input type="text" id="email" name="email" class="rettangolo" readonly />
+        </div>
+      </form>
+
+      <div class="wrapper">
+        <a id="modificapassword"><span>Modifica Password</span></a>
+        <a href=""><span>Elimina Account</span></a>
+      </div>
+
+      <form>
+        <div class="input" id="sparisci">
+          <label for="password" class="title">Password</label>
+          <input type="password" id="password" name="password" class="rettangolo" />
+      </form>
+      <div class="wrapper" id="bottoneinvia">
+        <a id="inviopass"><span>Invia</span></a>
+      </div>
+    </div>
+
+  </div>
+
+  </div>
+  <iframe src="../ifooter.html" class="iframe" frameborder="0" scrolling="yes"
+    style="width:100%; height: 100px;"></iframe>
+</body>
+
+</html>

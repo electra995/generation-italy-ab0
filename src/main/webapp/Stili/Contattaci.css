@@ -1,0 +1,282 @@
+body
+{
+  cursor: url("../Immagini/cursor.png"), auto;
+  margin: 0 auto;
+  color: #443737;
+  font-family: Ubuntu, sans-serif;
+}
+html
+{
+  cursor: url("../Immagini/cursor.png"), auto;
+}
+
+nav a #logo
+{
+  float: left;
+  margin: 30px 50px;
+}
+
+nav
+{
+  top: 0;
+  overflow: hidden;
+  position: fixed;
+  background-color: white;
+  width: 100%;
+  height: 100px;
+  font-family: Ubuntu, sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  text-align: left
+  transition: 0.4s;
+  z-index: 10;
+  background-color: #F1F9FF;
+}
+
+nav ul
+{
+  float: left;
+  width: 85%;
+  margin-top: 40px;
+}
+
+nav li
+{
+  display: inline;
+  margin-right: 30px;
+}
+
+nav li a
+{
+  color: #26555D;
+  text-decoration: none;
+  transition: all .3s ease-in-out;
+}
+
+nav li a:hover, a:active
+{
+  color: #cc3333;
+  transition: all .3s ease-in-out;
+}
+
+nav ul a .login:hover
+{
+  transform: translateY(-4px);
+  -webkit-transition: all color 0.5s linear ease-in-out;
+}
+
+.login
+{
+  float: right;
+  text-align: right;
+  margin-left: 30px;
+  margin-top: -10px;
+}
+
+.contenuto1
+{
+  height: 773px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+h1
+{
+  font-size: 50px;
+  font-weight: bold;
+  color: #26555D;
+  width: 700px;
+  padding-left: 40%;
+}
+
+form
+{
+  width: 600px;
+  margin-left: 30%;
+  position: relative;
+  padding-top: 10px;
+}
+
+.title
+{
+  float: left;
+  width: 200px;
+  font-weight: 500;
+  text-align: left;
+  padding-right: 20px;
+  display: inline;
+  color: #26555D;
+  margin-top: 15px;
+}
+
+div .radiobottoni
+{
+  width: 100%;
+  color: #26555D;
+}
+
+.title .radiobottoni
+{
+  font-weight: 500;
+}
+
+
+.radiobottoni
+{
+  margin-top: 18px;
+  color: #26555D;
+}
+
+.cerchietto
+{
+  padding-left: 20px;
+}
+
+#quesiti_medici
+{
+  margin-top: 10px;
+}
+
+#altro
+{
+  margin-top: 10px;
+}
+
+.rettangolo
+{
+  height: 40px;
+  width: 600px;
+  border: 1px solid #26555D;
+  margin-top: 8px;
+}
+
+.rettangolo:focus
+{
+  outline: none !important;
+  border: 1px solid #cc3333;
+}
+
+.formprenotazioni .prova
+{
+  height: 80px;
+  vertical-align: top;
+  text-align: left;
+}
+
+textarea
+{
+  resize: none;
+  color: #26555D;
+  font-family: Ubuntu, sans-serif;
+  padding-left: 8px;
+  padding-top: 8px;
+}
+
+input[type=text]
+{
+  padding-left: 8px;
+}
+
+.wrapper
+{
+  transform: translate(-50%, -50%);
+  margin-left: 300px;
+  margin-top: 45px;
+  width: 700px;
+}
+
+.wrapper a
+{
+  width: 200px;
+  height: 50px;
+  line-height: 50px;
+  font-size: 18px;
+  font-weight: regular;
+  text-decoration: none;
+  color: #E85572;
+  border: 2px solid #E85572;
+  letter-spacing: 2px;
+  text-align: center;
+  position: relative;
+  transition: all .3s ease-in-out;
+  border-top-right-radius: 25px;
+  display: inline-block;
+  margin-left: 60px;
+}
+
+.wrapper a span
+{
+  position: relative;
+  z-index: 9;
+}
+
+.wrapper a:after
+{
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  background: #E85572;
+  transition: all .3s ease-in-out;
+  border-top-right-radius: 25px;
+}
+
+.wrapper a:hover
+{
+  color: #fff;
+}
+
+.wrapper a:hover:after
+{
+  width: 100%;
+  border: 1px solid #E85572;
+}
+
+#bottoneinvia
+{
+  width: 200px;
+  height: 50px;
+  z-index: 9;
+  margin-left: 40px;
+  margin-top: 50px;
+  cursor: url("../Immagini/cursorPointer.png"), auto;
+}
+
+
+
+.footer
+{
+  background-color: #F1F9FF;
+  height: 100px;
+  margin: 0 auto;
+}
+
+.footer p
+{
+  padding-top: 40px;
+  padding-left: 50px;
+  margin: 0;
+}
+
+.footer a
+{
+  display: inline-block;
+  float: right;
+}
+
+.footer a:hover
+{
+  transform: translateY(-4px);
+  -webkit-transition: all color .5s linear ease-in-out;
+  transition-timing-function: ease-in-out;
+}
+
+.icon
+{
+  float: right;
+  margin-right: 30px;
+  position: relative;
+  bottom: 25px;
+}

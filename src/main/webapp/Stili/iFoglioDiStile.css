@@ -1,0 +1,263 @@
+html
+{
+  cursor: url("../Immagini/cursor.png"), auto;
+}
+body
+{
+  margin: 0 auto;
+  color: #443737;
+  font-family: Ubuntu, sans-serif;
+  background-color: #F8FCFF;
+}
+
+.contenuto1
+{
+  height: 560px;
+  width: 100%;
+  margin: 0 auto;
+  margin-top: -250px;
+}
+
+img.immagine
+{
+  float: right;
+  width: 850px;
+  margin-left: 700px;
+  margin-top: -480px;
+}
+
+.box-testo
+{
+  width: 700px;
+  height: 400px;
+  margin-top: 350px;
+  margin-left: 185px;
+}
+
+.titolone
+{
+  font-size: 50px;
+  font-weight: bold;
+  color: #26555D;
+  margin: 0;
+}
+
+.testone
+{
+  font-size: 24px;
+  font-weight: light;
+  line-height: 35px;
+  width: 74%;
+  margin-top: 20px;
+  clip: rect(0, 80rem, 50rem, 80rem);
+}
+
+.titolo
+{
+  padding-left: 80%;
+  font-size: 50px;
+  font-weight: bold;
+  color: #26555D;
+  margin: 0;
+}
+
+.titolo::first-letter
+{
+  color: #E85572;
+}
+
+.sottotitolo
+{
+  padding-left: 6%;
+  margin-top: -1%;
+  font-size: 40px;
+  font-weight: bold;
+  color: #26555D;
+  width: 100%;
+}
+
+.testo
+{
+  padding-left: 6%;
+  font-size: 24px;
+  font-weight: light;
+  line-height: 35px;
+  width: 74%;
+  margin-top: 20px;
+}
+
+.contenuto2
+{
+  background-color: white;
+  height: 500px;
+  margin: 0 auto;
+}
+
+.slideshow-container
+{
+  margin: 0 auto;
+  position: relative;
+  top: 10%;
+  background: #fff;
+  width: 80%;
+  height: 80%;
+
+}
+
+.contenitore-arrow
+{
+  position: relative;
+  top: 50%;
+  border-radius: 50%;
+  border: 2px solid #E85572;
+  height: 80px;
+  width: 80px;
+}
+
+#contenitore-arrowsx
+{
+  position: absolute;
+  left: 1%;
+}
+
+#contenitore-arrowdx
+{
+  position: absolute;
+  right: 1%;
+}
+
+#contenitore-paragrafo
+{
+  position:absolute;
+  left:10%;
+  right:10%;
+  width: 90%;
+  top: 17%;
+}
+
+.arrow
+{
+  position:absolute;
+  cursor: url("../Immagini/cursorPointer.png"), auto;
+  top: 25%;
+  left: 26%;
+  filter: invert(52%) sepia(28%) saturate(5863%) hue-rotate(317deg) brightness(95%) contrast(90%);
+}
+
+.arrow:hover
+{
+  filter: invert(96%) sepia(96%) saturate(17%) hue-rotate(237deg) brightness(104%) contrast(104%);
+  -webkit-transition: .5s;
+}
+
+.contenitore-arrow:hover
+{
+  position: relative;
+  top: 50%;
+  border-radius: 50%;
+  border: 2px solid #E85572;
+  background: #E85572;
+  height: 80px;
+  width: 80px;
+  -webkit-transition: .5s;
+}
+
+.contenitore-arrow:active
+{
+  position: relative;
+  top: 50%;
+  border-radius: 50%;
+  border: 2px solid #26555D;
+  background: #26555D;
+  height: 80px;
+  width: 80px;
+  -webkit-transition: 0.2s;
+}
+
+.wrapper
+{
+  top: 50%;
+  margin-top: -80px;
+  margin-left: 0;
+}
+
+.wrapper a
+{
+  display: block;
+  width: 200px;
+  height: 50px;
+  line-height: 50px;
+  font-size: 18px;
+  font-weight: regular;
+  text-decoration: none;
+  color: #E85572;
+  border: 2px solid #E85572;
+  letter-spacing: 2px;
+  text-align: center;
+  position: relative;
+  transition: all .3s ease-in-out;
+  margin-top: 150px;
+  border-top-right-radius: 25px;
+  position: relative;
+}
+
+.wrapper a span
+{
+  position: relative;
+  z-index: 8;
+}
+
+.wrapper a:after
+{
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  background: #E85572;
+  transition: all .3s ease-in-out;
+  border-top-right-radius: 25px;
+}
+
+.wrapper a:hover
+{
+  color: #fff;
+}
+
+.wrapper a:hover:after
+{
+  width: 100%;
+  border: 1px solid #E85572;
+}
+
+/*
+#paragrafo
+{
+  display: block;
+  max-width: 60%;
+  margin: auto;
+}
+
+.arrow
+{
+  position: relative;
+}
+
+#frecce .arrow
+{
+  margin-top: 300px;
+}
+
+#arrowsx
+{
+  display: inline;
+  margin: 0 auto;
+}
+
+#arrowdx
+{
+  display: inline;
+  margin: 0 auto;
+}
+*/

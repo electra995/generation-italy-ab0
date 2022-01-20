@@ -1,0 +1,130 @@
+<html>
+  <head>
+    <title>AB0</title>
+    <link rel="icon" href="Immagini/blood.png" type="image/png">
+    <script type='text/javascript' src='JS/jquery.min.js'></script>
+    <script type='text/javascript' src='JS/Statistiche.js'></script>
+    <script src="JS/confetti.js"></script>
+    <link rel="Stylesheet" type="text/css" href="Stili/Statistiche.css">
+    <meta charset="utf-8">
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Expires" content="0">
+      <iframe src="inavbar.html" class="iframe" frameborder="0" scrolling="yes" style="z-index: 10; top:0; position: sticky; display:block; width:100%; height:fit-content;"></iframe>
+    </head>
+    <body>
+      <script> const start = () => {
+            setTimeout(function() {
+                confetti.start()
+            }, 0); // 1000 is time that after 1 second start the confetti ( 1000 = 1 sec)
+        };
+
+        //  for stopping the confetti
+
+        const stop = () => {
+            setTimeout(function() {
+                confetti.stop()
+            }, 2000); // 5000 is time that after 5 second stop the confetti ( 5000 = 5 sec)
+        };
+// after this here we are calling both the function so it works
+        start();
+        stop();</script>
+
+      <div class="graphic-container">
+
+  <div class="center-circles-container">
+
+<!--  single    -->
+    <div class="single">
+      <div class="circle one">
+        <div class="dot"></div>
+        <div class="icon">
+          <i class="far fa-building">158</i>
+        </div>
+        <div class="content-container">
+          <div class="line"></div>
+          <h2 style="position: relative; top: 4px;">Donatori</h2>
+          <div class="content">
+            <h3 style="top: 12px; position: relative;">Tutti i donatori iscritti alla piattaforma AB0!</h3>
+          </div>
+        </div>
+      </div>
+    </div>
+<!--   double   -->
+    <div class="double">
+      <div class="circle two">
+        <div class="icon">
+          <i class="far fa-building">72</i>
+        </div>
+        <div class="content-container">
+          <div class="line"></div>
+          <h2 style="top: 4px; left: 17px;">Amministratori</h2>
+          <div class="content">
+            <h3 style="top: 12px; position: relative; left: 21px;">Il nostro staff a tua disposizione!</h3>
+          </div>
+        </div>
+        </div>
+      <div class="circle three">
+        <div class="icon">
+          <i class="far fa-building">40</i>
+        </div>
+        <div class="content-container">
+          <div class="line"></div>
+          <h2 style="top: -50px; left: 63px;">Sedi territoriali</h2>
+          <div class="content">
+            <h3 style="position: relative; top: -42px; left: 58px;">Gli ospedali sul territorio italiano!</h3>
+          </div>
+        </div>
+        </div>
+    </div>
+<!--   double   -->
+    <div class="double">
+      <div class="circle four">
+        <div class="dot"></div>
+        <div class="icon">
+          <i class="far fa-building">377</i>
+        </div>
+        <div class="content-container">
+          <div class="line"></div>
+          <h2 style="position: relative; top: 22px;">Donazioni</h2>
+          <div class="content">
+            <h3 style="top: 26px; position: relative;">Le donazioni effettuate fino ad oggi!</h3>
+          </div>
+        </div>
+        </div>
+      <div class="circle five">
+        <div class="icon">
+          <i class="far fa-building">108</i>
+        </div>
+        <div class="content-container">
+          <div class="line"></div>
+          <h2 style="top: 4px; left: -63px;">Sangue donato</h2>
+          <div class="content">
+            <h3 style="position: relative; top: 9px; left: -54px;">Quanti litri di sangue abbiamo raccolto fino ad oggi?</h3>
+          </div>
+        </div>
+        </div>
+    </div>
+<!--  single    -->
+    <div class="single">
+      <div class="circle six">
+        <div class="dot"></div>
+        <div class="icon">
+          <i class="far fa-building">24</i>
+        </div>
+        <div class="content-container">
+          <div class="line"></div>
+          <h2 style="top: 5px; left: -7px;">Plasma donato</h2>
+          <div class="content">
+            <h3  style="position: relative; top: 8px; left: -8px;">Quanti litri di plasma abbiamo raccolto fino ad oggi?</h3>
+          </div>
+        </div>
+        </div>
+    </div>
+
+  </div>
+
+</div>
+      <iframe src="ifooter.html" class="iframe" frameborder="0" scrolling="yes" style="width:100%; height: 100px;"></iframe>
+    </body>
+</html>

@@ -1,0 +1,117 @@
+html
+{
+  cursor: url("../Immagini/cursor.png"), auto;
+}
+/* Always set the map height explicitly to define the size of the div
+       * element that contains the map. */
+#map {
+  height: 80%;
+  width: 50%;
+  display: block;
+  float: right;
+  margin-right: 45px;
+}
+
+/* Optional: Makes the sample page fill the window. */
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  margin: 0 auto;
+  color: #443737;
+  font-family: Ubuntu, sans-serif;
+}
+
+h1
+{
+  font-size: 25px;
+  font-weight: bold;
+  color: #26555D;
+  width: 30%;
+  margin-left: 49px;
+  margin-top: 7px;
+  margin-bottom: 51px;
+}
+
+select
+{
+  padding-left: 8px;
+  font-family: Ubuntu, sans-serif;
+  color: #26555D;
+}
+
+#boxRegioni
+{
+  margin-top: -1px;
+}
+
+#comboRegioni
+{
+  height: 40px;
+  width: 551px;
+  border: 1px solid #26555D;
+  margin-top: 3px;
+  margin-left: 48px;
+}
+
+table {
+   border-spacing: 0;
+   background: white;
+   border-radius: 40px;
+   overflow: hidden;
+   max-width: 600px;
+   width: 100%;
+   margin: 0 auto;
+   position: relative;
+   right: 17px;
+   bottom: -49px;
+}
+ table * {
+	 position: relative;
+}
+ table td, table th {
+	 padding-left: 15px;
+}
+
+table td
+{
+  border-bottom: 2px solid #e3f1d5;
+  border-left: 2px solid #e3f1d5;
+}
+
+ table thead tr {
+	 height: 60px;
+	 background: #26555D;
+	 font-size: 16px;
+   color: white;
+}
+ table tbody tr {
+	 height: 48px;
+	 border-bottom: 2px solid #e3f1d5;
+}
+
+.maplogo:hover
+{
+  transform: translateY(-4px);
+  -webkit-transition: all color 0.5s linear ease-in-out;
+}
+
+.maplogo
+{
+  margin-right: 40px;
+  position: relative;
+  left: 25px;
+  bottom: -5px;
+}
+
+#tdSede
+{
+  border-right: 2px solid #e3f1d5;
+}
+
+th
+{
+  float: top;
+  font-weight: 400;
+}

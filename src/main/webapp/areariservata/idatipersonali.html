@@ -1,0 +1,69 @@
+<html>
+
+<head>
+  <link rel="Stylesheet" type="text/css" href="../Stili/iDatiPersonali.css" />
+  <script src="../JS/jquery.min.js"></script>
+  <script src="../JS/DatiPersonali.js"></script>
+</head>
+
+<body>
+
+    <h1>Dati Personali</h1>
+    <form>
+
+      <div>
+        <label for="name" class="title">Nome</label>
+        <input type="text" id="nome" name="nome" class="rettangolo" readonly/>
+      </div>
+
+      <div>
+        <label for="cognome" class="title">Cognome</label>
+        <input type="text" id="cognome" name="cognome" class="rettangolo" readonly />
+      </div>
+
+      <div class="radiobottoni">
+        <span class="title">Genere</span></br></br>
+        <label for="male">Uomo</label>
+        <input type="radio" name="genere" id="male" value="Uomo" disabled="disabled" />
+        <label for="female" class="cerchietto">Donna</label>
+        <input type="radio" name="genere" id="female" value="Donna" disabled="disabled" />
+      </div>
+
+      <div>
+        <label for="data" class="title">Data di nascita</label></br></br>
+        <input type="date" id="dob" name="data" readonly />
+      </div>
+
+      <div>
+        <label for="sangue" class="title">Tipo di sangue</label>
+        <input type="text" id="sangue" name="sangue" class="rettangolo" readonly />
+      </div>
+
+      <div class="radiobottoni">
+        <span class="title">RH</span></br></br>
+        <label for="male">Positivo</label>
+        <input type="radio" name="rh" id="positivo" value="Positivo" disabled="disabled" />
+        <label for="female" class="cerchietto">Negativo</label>
+        <input type="radio" name="rh" id="negativo" value="Negativo" disabled="disabled" />
+      </div>
+
+      <div>
+        <label for="regione" class="title">Regione</label>
+        <input type="text" id="regione" name="regione" class="rettangolo" readonly />
+      </div>
+
+      <div>
+        <label for="number" class="title">Telefono</label>
+        <input type="text" id="number" name="number" class="rettangolo" readonly />
+      </div>
+
+      <div>
+        <label for="email" class="title">E-mail</label>
+        <input type="text" id="email" name="email" class="rettangolo" readonly />
+      </div>
+
+      </div>
+    </form>
+</body>
+
+</html>

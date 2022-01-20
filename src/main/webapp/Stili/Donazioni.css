@@ -1,0 +1,197 @@
+html
+{
+  cursor: url("../Immagini/cursor.png"), auto;
+}
+body
+{
+  cursor: url("../Immagini/cursor.png"), auto;
+  margin: 0 auto;
+  color: #443737;
+  font-family: Ubuntu, sans-serif;
+}
+
+nav a #logo
+{
+  float: left;
+  margin: 30px 50px;
+}
+
+nav
+{
+  top: 0;
+  overflow: hidden;
+  position: fixed;
+  background-color: white;
+  width: 100%;
+  height: 100px;
+  font-family: Ubuntu, sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  text-align: left
+  transition: 0.4s;
+  z-index: 10;
+}
+
+nav ul
+{
+  float: left;
+  width: 85%;
+  margin-top: 40px;
+}
+
+nav li
+{
+  display: inline;
+  margin-right: 30px;
+}
+
+nav li a
+{
+  color: #26555D;
+  text-decoration: none;
+  transition: all .3s ease-in-out;
+}
+
+nav li a:hover, a:active
+{
+  color: #cc3333;
+  transition: all .3s ease-in-out;
+}
+
+nav ul a .login:hover
+{
+  transform: translateY(-4px);
+  -webkit-transition: all color 0.5s linear ease-in-out;
+}
+
+.login
+{
+  float: right;
+  text-align: right;
+  margin-left: 30px;
+  margin-top: -10px;
+}
+
+.contenuto1
+{
+  height: 3290px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+h1
+{
+  font-size: 40px;
+  font-weight: bold;
+  color: #26555D;
+  width: 700px;
+  margin: 0;
+  padding-top: 70px;
+  padding-left: 185px;
+}
+
+#primotitolo
+{
+  padding-top: 10px;
+}
+
+h2
+{
+  padding-left: 185px;
+  padding-top: 20px;
+}
+
+p
+{
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 35px;
+  width: 1200px;
+  padding-top: 10px;
+  padding-left: 185px;
+  line-height: 1.4em;
+}
+
+#sottoparagrafo
+{
+  margin-bottom: -24px;
+  color: #26555D;
+}
+
+ol
+{
+  font-size: 20px;
+  font-weight: 400;
+  padding-left: 205px;
+  margin-top: 10px;
+  width: 1200px;
+  line-height: 1.4em;
+}
+
+li::marker
+{
+  color: #cc3333;
+  left: 10px;
+}
+
+li
+{
+  position: relative;
+  padding-left: 10px;
+}
+
+h2 a
+{
+  padding-top: 20px;
+  text-decoration: none;
+  color: #26555D
+}
+
+h2 a:hover, a:active
+{
+  color: #cc3333;
+  transition: all .3s ease-in-out;
+}
+
+#divisore
+{
+  width: 1400px;
+  margin-top: 80px;
+  padding-top: 0.01%;
+  background-color: #26555D;
+}
+
+.footer
+{
+  background-color: #F1F9FF;
+  height: 100px;
+  margin: 0 auto;
+}
+
+.footer p
+{
+  padding-top: 40px;
+  padding-left: 50px;
+  margin: 0;
+}
+
+.footer a
+{
+  display: inline-block;
+  float: right;
+}
+
+.footer a:hover
+{
+  transform: translateY(-4px);
+  -webkit-transition: all color .5s linear ease-in-out;
+  transition-timing-function: ease-in-out;
+}
+
+.icon
+{
+  float: right;
+  margin-right: 30px;
+  position: relative;
+  bottom: 25px;
+}

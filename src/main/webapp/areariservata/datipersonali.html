@@ -1,0 +1,81 @@
+<html>
+  <head>
+    <title>AB0 | Dati Personali</title>
+    <link rel="icon" href="../Immagini/syringe.png" type="image/png"/>
+    <link rel="Stylesheet" type="text/css" href="../Stili/DatiPersonali.css"/>
+    <meta charset="utf-8" />
+    <script src="../JS/jquery.min.js"></script>
+    <script src="../JS/DatiPersonali.js"></script>
+    <iframe src="../inavbar.html" class="iframe" frameborder="0" scrolling="yes" style="z-index: 10; top:0; position: sticky; display:block; width:100%; height:fit-content;"></iframe>
+  </head>
+    <body>
+      <div class="contenuto1">
+
+        <ul id="menu">
+          <li><img src="../Immagini/id-card.png" width="35" class="icona_menu"><a href="datipersonali.html">Dati Personali</a></li>
+          <li><img src="../Immagini/calendar.png" width="35" class="icona_menu"><a href="prenotazioni.html">Prenotazioni</a></li>
+          <li><img src="../Immagini/medal.png" width="35" class="icona_menu"><a href="traguardi.html">Traguardi</a></li>
+          <li><img src="../Immagini/note.png" width="35" class="icona_menu"><a href="gestioneaccount.html">Gestione Account</a></li>
+        </ul>
+
+        <div class="contenuto2">
+          <h1>Dati Personali</h1>
+          <form>
+
+            <div>
+              <label for="name" class="title">Nome</label>
+              <input type="text" id="nome" name="nome" class="rettangolo" readonly/>
+            </div>
+
+            <div>
+              <label for="cognome" class="title">Cognome</label>
+              <input type="text" id="cognome" name="cognome" class="rettangolo" readonly />
+            </div>
+
+            <div class="radiobottoni">
+              <span class="title">Genere</span></br></br>
+              <label for="male">Uomo</label>
+              <input type="radio" name="genere" id="male" value="Uomo" disabled="disabled" />
+              <label for="female" class="cerchietto">Donna</label>
+              <input type="radio" name="genere" id="female" value="Donna" disabled="disabled" />
+            </div>
+
+            <div>
+              <label for="data" class="title">Data di nascita</label>
+              <input type="date" id="dob" name="data" readonly />
+            </div>
+
+            <div>
+              <label for="sangue" class="title">Tipo di sangue</label>
+              <input type="text" id="sangue" name="sangue" class="rettangolo" readonly />
+            </div>
+
+            <div class="radiobottoni">
+              <span class="title">RH</span></br></br>
+              <label for="male">Positivo</label>
+              <input type="radio" name="rh" id="positivo" value="Positivo" disabled="disabled" />
+              <label for="female" class="cerchietto">Negativo</label>
+              <input type="radio" name="rh" id="negativo" value="Negativo" disabled="disabled" />
+            </div>
+
+            <div>
+              <label for="regione" class="title">Regione</label>
+              <input type="text" id="regione" name="regione" class="rettangolo" readonly />
+            </div>
+
+            <div>
+              <label for="number" class="title">Telefono</label>
+              <input type="text" id="number" name="number" class="rettangolo" readonly />
+            </div>
+
+            <div>
+              <label for="email" class="title">E-mail</label>
+              <input type="text" id="email" name="email" class="rettangolo" readonly />
+            </div>
+
+            </div>
+          </form>
+        </div>
+        <iframe src="../ifooter.html" class="iframe" frameborder="0" scrolling="yes" style="width:100%; height: 100px;"></iframe>
+      </body>
+</html>

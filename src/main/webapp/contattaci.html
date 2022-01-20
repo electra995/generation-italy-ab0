@@ -1,0 +1,83 @@
+<html>
+  <head>
+    <title>AB0 | Contattaci</title>
+    <link rel="icon" href="Immagini/syringe.png" type="image/png"/>
+    <link rel="Stylesheet" type="text/css" href="Stili/Contattaci.css"/>
+    <meta charset="utf-8" />
+    <script src="JS/jquery.min.js"></script>
+    <script src="JS/Contattaci.js"></script>
+    <iframe src="inavbar.html" class="iframe" frameborder="0" scrolling="yes" style="z-index: 10; top:0; position: sticky; display:block; width:100%; height:fit-content;"></iframe>
+  </head>
+  <body>
+    <div class ="contenuto1">
+
+    <h1>Contattaci</h1>
+    <form>
+
+      <div>
+        <label for="name" class="title">Nome</label>
+        <input type="text" id="nome" name="nome" class="rettangolo"/>
+      </div>
+
+      <div>
+        <label for="cognome" class="title">Cognome</label>
+        <input type="text" id="cognome" name="cognome" class="rettangolo"/>
+      </div>
+
+      <div>
+        <label for="number" class="title">Telefono</label>
+        <input type="text" id="number" name="number" class="rettangolo"/>
+      </div>
+
+      <div>
+        <label for="email" class="title">E-mail</label>
+        <input type="text" id="email" name="email" class="rettangolo"/>
+      </div>
+
+      <div class="radiobottoni"
+        <span class="title"><b>Tipo di richiesta</b></span></br>
+        <label for="quesiti_medici">Quesiti medici</label>
+        <input type="radio" name="quesiti" id="quesiti_medici" value="quesiti_medici"/>
+        <label for="altro" class="cerchietto">Altro</label>
+        <input type="radio" name="quesiti" id="altro" value="altro"/>
+      </div>
+
+      <div class="formprenotazioni">
+        <label for="messaggio" class="title">Messaggio</label></br>
+        <textarea id="messaggio" name="messaggio" class="rettangolo prova"></textarea>
+      <div class="wrapper" id="bottoneinvia">
+        <a id="inviopass"><span>Invia</span></a>
+      </div>
+      </div>
+
+      <!-- AGGIUNGERE MESSAGGIO -->
+
+    </form>
+      <!--
+      <form class="richiesta" action="index.html" method="post">
+        Nome                        Cognome<br>
+        <textarea name="nome" rows="1" cols="20"></textarea>
+        <textarea name="cognome" rows="1" cols="20"></textarea>
+        <br>
+
+        E-mail  Telefono <br>
+        <textarea name="e-mail" rows="1" cols="20"></textarea>
+        <textarea name="telefono" rows="1" cols="20"></textarea>
+        <br>
+        Tipo di richiesta <br>
+        <select name="example">
+          <option value="A">Quesiti medici</option>
+          <option value="B">Altro</option>
+
+        </select>
+        <br>
+        Messaggio <br><textarea name="messaggio" rows="5" cols="20"></textarea>
+        <br>
+        <button type="button" name="INVIA">INVIA</button>
+      </form>
+      -->
+
+    </div>
+      <iframe src="ifooter.html" class="iframe" frameborder="0" scrolling="yes" style="width:100%; height: 100px;"></iframe>
+    </body>
+</html>

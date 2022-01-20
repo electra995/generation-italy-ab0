@@ -1,0 +1,51 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Calendario</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css"
+          integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+    <link rel="Stylesheet" type="text/css" href="../Stili/Calendario.css"/>
+    <script src="../JS/jquery.min.js"></script>
+</head>
+<body>
+<div class="container col-sm-4 col-md-12 col-lg-4 mt-5">
+    <div class="card">
+        <h3 class="card-header" id="monthAndYear"></h3>
+        <table class="table table-bordered table-responsive-sm" id="calendar">
+            <thead>
+            <tr>
+                <th>Dom</th>
+                <th>Lun</th>
+                <th>Mar</th>
+                <th>Mer</th>
+                <th>Gio</th>
+                <th>Ven</th>
+                <th>Sab</th>
+            </tr>
+            </thead>
+
+            <tbody id="calendar-body">
+
+            </tbody>
+        </table>
+
+        <div class="form-inline">
+
+            <button style='cursor: url("../Immagini/cursorPointer.png"), auto' class="btn btn-outline-primary col-sm-5" id="previous" onclick="previous()"><span>Precedente</span></button>
+
+            <button style='cursor: url("../Immagini/cursorPointer.png"), auto' class="btn btn-outline-primary col-sm-5" id="next" onclick="next()"><span>Successivo</span></button>
+        </div>
+        <br>
+        <select hidden class="form-control col-sm-4" name="month" id="month">
+        </select>
+        <label for="year"></label><select hidden class="form-control col-sm-4" name="year" id="year">
+
+        </select>
+    </div>
+</div>
+<script src="../JS/Calendario.js"></script>
+</body>
+</html>

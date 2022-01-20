@@ -1,0 +1,111 @@
+html
+{
+  cursor: url("../Immagini/cursor.png"), auto;
+}
+body
+{
+    margin: 0 auto;
+    font-family: Ubuntu, sans-serif;
+}
+
+h1
+{
+  margin-top: 40px;
+  margin-left: 8px;
+  color: #26555D;
+}
+
+#prenotazioniUtente
+{
+  padding-left: 15px;
+}
+
+::marker {
+    content: "";
+}
+
+.node
+{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    display: inline-block;
+    transition: all 1000ms ease;
+    z-index: 10;
+}
+
+img
+{
+  float: right;
+  margin-right: 454px;
+  margin-top: -44px;
+}
+
+.activated
+{
+    box-shadow: 0px 0px 3px 2px rgba(38, 85, 93, 0.25);
+}
+
+ul
+{
+  margin-top: 60px;
+  margin-left: -40px;
+}
+
+ul li
+{
+  margin-top: -30px;
+  margin-left: 10px;
+}
+
+p .donazione
+{
+  padding-top: -10px;
+}
+
+.divider
+{
+    height: 140px;
+    width: 2px;
+    margin-left: 14px;
+    margin-top: -6px;
+    transition: all 800ms ease;
+}
+
+#progress li p
+{
+    margin-left: 50px;
+    margin-top: -23px;
+    margin-bottom: 18px;
+}
+
+.contenuto2 li
+{
+    list-style: none;
+    line-height: 1px;
+}
+
+.verdino
+{
+  background-color: rgba(59, 130, 143, 1);
+}
+
+.blue
+{
+    background-color: rgba(82, 165, 255, 1);
+}
+
+.green
+{
+    background-color: rgba(92, 184, 92, 1);
+}
+
+.red
+{
+    background-color: rgba(255, 148, 148, 1);
+}
+
+.grey
+{
+    background-color: rgba(201, 201, 201, 1);
+}

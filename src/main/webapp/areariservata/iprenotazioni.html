@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="Stylesheet" type="text/css" href="../Stili/Prenotazioni.css" />
+  <script src="../JS/jquery.min.js"></script>
+  <script src="../JS/Prenotazioni.js"></script>
+</head>
+
+<body>
+  <h1>Prenotazioni</h1>
+
+  <div class="contenuto3">
+    <form>
+      <iframe id="icalendario" scrolling="no" src="calendario.html" title="Calendario"></iframe>
+      <!-- XSONIA Queste due comboBOX all'apertura del file HTML sono invisibili perchè si riempiono solo quando il server è acceso e viene selezionata una data dall'utente
+            ma devono comunque essere riposizionate -->
+      <div id="dataDon" class="formprenotazioni">
+        <label for="data" class="title"><b>Data donazione</b></label></br>
+		<br>
+        <input type="date" id="data" name="data" class="rettangolo" readonly />
+      </div>
+
+      <div id="boxSedi" style="display: none;">
+      </div>
+      <div id="boxTipi" style="display: none;">
+      </div>
+      <!-- <form>
+        <div class="input">
+          <input type="text" value="" id="prenotazione" name="prenotazione" class="rettangolo" readonly />
+        </div>
+        <div class="wrapper">
+          <a id="prenotati"><span >Prenotati</span></a>
+        </div>
+
+      </form> -->
+    </form>
+
+
+    <div id="boxNote" class="formprenotazioni" style="display: none;">
+      <label for="note" class="title"><b>Note</b></label></br>
+	  <br>
+      <textarea id="note" name="note" class="rettangolo prova"></textarea>
+    </div>
+    <div class="wrapper" >
+      <a id="btnPrenota" class="bottone" style="display: none;"><span>Prenota</span></a>
+    </div>
+    <div class="wrapper">
+      <a id="btnElimina" class="bottone" style="display: none;"><span>Elimina Donazione</span></a>
+    </div>
+  </div>
+</body>
+
+</html>

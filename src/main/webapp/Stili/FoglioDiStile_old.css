@@ -1,0 +1,286 @@
+html
+{
+  cursor: url("../Immagini/cursor.png"), auto;
+}
+
+body
+{
+  margin: 0 auto;
+  color: #443737;
+  font-family: Ubuntu, sans-serif;
+}
+
+nav a #logo
+{
+  float: left;
+  margin: 30px 50px;
+}
+
+nav
+{
+  top: 0;
+  overflow: hidden;
+  position: fixed;
+  background-color: white;
+  width: 100%;
+  height: 100px;
+  font-family: Ubuntu, sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  text-align: left;
+  transition: 0.4s;
+  z-index: 10;
+}
+
+nav ul
+{
+  float: left;
+  width: 85%;
+  margin-top: 40px;
+}
+
+nav li
+{
+  display: inline;
+  margin-right: 30px;
+}
+
+nav li a
+{
+  color: #26555D;
+  text-decoration: none;
+  transition: all .3s ease-in-out;
+}
+
+nav li a:hover, a:active
+{
+  color: #cc3333;
+  transition: all .3s ease-in-out;
+}
+
+nav ul a .login:hover
+{
+  transform: translateY(-4px);
+  -webkit-transition: all color 0.5s linear ease-in-out;
+}
+
+.login
+{
+  float: right;
+  text-align: right;
+  margin-left: 30px;
+  margin-top: -10px;
+}
+
+.contenuto1
+{
+  height: 560px;
+  width: 100%;
+  margin: 0 auto;
+  margin-top: -150px;
+}
+
+img.immagine
+{
+  float: right;
+  width: 850px;
+  margin-left: 700px;
+  margin-top: -480px;
+}
+
+.testo
+{
+  width: 50%;
+  height: 400px;
+  margin-top: 350px;
+  margin-left: 185px;
+}
+
+.testo h1
+{
+  font-size: 50px;
+  font-weight: bold;
+  color: #26555D;
+  width: 700px;
+  margin: 0;
+}
+
+.testo p
+{
+  font-size: 24px;
+  font-weight: light;
+  line-height: 35px;
+  width: 520px;
+  margin-top: 30px;
+}
+
+.contenuto2
+{
+  background-color: green;
+  height: 800px;
+  margin: 0 auto;
+}
+
+.wrapper
+{
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin-top: -80px;
+  margin-left: 195px;
+}
+
+.wrapper a
+{
+  display: block;
+  width: 200px;
+  height: 50px;
+  line-height: 50px;
+  font-size: 18px;
+  font-weight: regular;
+  text-decoration: none;
+  color: #E85572;
+  border: 2px solid #E85572;
+  letter-spacing: 2px;
+  text-align: center;
+  position: relative;
+  transition: all .3s ease-in-out;
+  margin-top: 150px;
+  margin-left: 100px;
+  border-top-right-radius: 25px;
+}
+
+.wrapper a span
+{
+  position: relative;
+  z-index: 12;
+}
+
+.wrapper a:after
+{
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  background: #E85572;
+  transition: all .3s ease-in-out;
+  border-top-right-radius: 25px;
+}
+
+.wrapper a:hover
+{
+  color: #fff;
+}
+
+.wrapper a:hover:after
+{
+  width: 100%;
+  border: 1px solid #E85572;
+}
+
+.slideshow-container
+{
+  margin: auto;
+  position: relative;
+  top: 13%;
+  background: yellow;
+  width: 80%;
+  height: 66%;
+  overflow: auto;
+}
+
+.contenitore-arrow{
+  position:absolute;
+  top: 50%;
+}
+
+#contenitore-arrowsx{
+  left: 1%
+}
+
+#contenitore-arrowdx{
+  right: 5%
+}
+
+#contenitore-paragrafo
+{
+  position:absolute;
+  left:10%;
+  right:10%;
+  height: 100%;
+  font-size: 35;
+
+}
+
+.arrow
+{
+  position:absolute;
+}
+
+/*
+#paragrafo
+{
+  display: block;
+  max-width: 60%;
+  margin: auto;
+}
+
+.arrow
+{
+  position: relative;
+}
+
+#frecce .arrow
+{
+  margin-top: 300px;
+}
+
+#arrowsx
+{
+  display: inline;
+  margin: 0 auto;
+}
+
+#arrowdx
+{
+  display: inline;
+  margin: 0 auto;
+}
+*/
+
+.footer
+{
+  background-color: #F1F9FF;
+  height: 100px;
+  margin: 0 auto;
+}
+
+.footer p
+{
+  padding-top: 40px;
+  padding-left: 50px;
+  margin: 0;
+}
+
+.footer a
+{
+  display: inline-block;
+  float: right;
+}
+
+.footer a:hover
+{
+  transform: translateY(-4px);
+  -webkit-transition: all color .5s linear ease-in-out;
+  transition-timing-function: ease-in-out;
+}
+
+.icon
+{
+  float: right;
+  margin-right: 30px;
+  position: relative;
+  bottom: 25px;
+}

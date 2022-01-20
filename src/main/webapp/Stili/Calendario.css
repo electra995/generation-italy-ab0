@@ -1,0 +1,86 @@
+html
+{
+  height: 600px;
+  width: 1950px;
+}
+html
+{
+  cursor: url("../Immagini/cursor.png"), auto;
+}
+
+body
+{
+  cursor: url("../Immagini/cursor.png"), auto;
+  position: relative;
+  left: -20%;
+  width: 60%;
+  top: -8%;
+}
+
+.grey
+{
+  background-color: darkgrey;
+  cursor:not-allowed;
+}
+
+.green
+{
+  background-color: rgb(82, 181, 199);
+  cursor: url("../Immagini/cursorPointer.png"), auto;
+}
+
+.white
+{
+  cursor: url("../Immagini/cursor.png"), auto;
+}
+
+/*
+.card-header
+{
+  width: 382px;
+}
+*/
+
+.card
+{
+  border: none;
+}
+
+*, ::after, ::before
+{
+  box-sizing: content-box;
+}
+
+.btn-outline-primary .col-sm-6
+{
+  width: 100px;
+}
+
+#previous, #next
+{
+  border: 1px solid #26555D;
+  margin-left: 5px;
+}
+
+.btn-outline-primary:hover
+{
+  background-color: #26555D;
+  transition: all .3s ease-in-out;
+}
+
+span
+{
+  color: #26555D;
+}
+
+.btn-outline-primary:hover span
+{
+  color: #fff;
+  transition: all .3s ease-in-out;
+}
+
+
+.container
+{
+  padding-left: -60px;
+}
